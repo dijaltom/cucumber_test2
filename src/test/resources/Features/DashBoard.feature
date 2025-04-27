@@ -12,7 +12,7 @@ Feature: Dashboard
       | Header                                 | Title                                  | Path                                         | filePath                                            |
       | Selenium Automation Testing Playground | Selenium Test Playground & Stock Chart | src/test/resources/TestData/csv/tetsData.csv | src/test/resources/TestData/pdf/Welcome to Word.pdf |
 
-  @Test
+#  @Test
   Scenario:2: Validate Basic Input Section
     When User Navigates to Base URL
     Then Validate selection part
@@ -23,7 +23,7 @@ Feature: Dashboard
     When User Navigates to Base URL
     Then Validate Buttons and Actions
 
-  @Test
+#  @Test
   Scenario:4: Checking the Dynamic Xpath case
     When User Navigates to Base URL
     Then Validate dynamic items

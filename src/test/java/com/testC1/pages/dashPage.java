@@ -13,7 +13,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.*;
-import org.sikuli.script.Screen;
 import org.testng.Assert;
 
 import java.awt.*;

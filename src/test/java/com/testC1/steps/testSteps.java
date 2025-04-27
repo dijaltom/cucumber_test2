@@ -6,7 +6,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.bouncycastle.asn1.ocsp.ResponderID;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
