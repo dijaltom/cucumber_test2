@@ -3,10 +3,9 @@ Please use this in jenkins pipeline script to generate cucumber Options, in orde
 **Script**
 ==================================================================================================================================================================================    
 
-pipeline {
-    agent any
-
-    stages {
+    pipeline {
+        agent any
+        stages {
         stage('Checkout') {
             steps {
                 git branch: 'master', url: 'https://github.com/dijaltom/cucumber_test2.git'
