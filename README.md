@@ -1,17 +1,14 @@
 Please use this in jenkins pipeline script to generate cucumber Options, in order to do that please ensure that you already insatlled cucumber report plugin  and configured JDK and MAVEN in Jenkins.
 
 **Script**
-==================================================================================================================================================================================
-
-    
-    pipeline {
-    agent any
-
-   environment {
-        // Define paths for the reports
-       CUCUMBER_JSON_REPORT = 'target/cucumber-reports/Cucumber.json'
-     }
-    stages {
+==================================================================================================================================================================================    
+     pipeline {
+     agent any
+        environment {
+            // Define paths for the reports
+           CUCUMBER_JSON_REPORT = 'target/cucumber-reports/Cucumber.json'
+                    }
+        stages {
         stage('Checkout') {
             steps {
                 // Checkout the code from your repository
