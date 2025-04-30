@@ -2,14 +2,15 @@ Please use this in jenkins pipeline script to generate cucumber Options, in orde
 
 **Script**
 ==================================================================================================================================================================================
-pipeline {
+
+    
+    pipeline {
     agent any
 
    environment {
         // Define paths for the reports
        CUCUMBER_JSON_REPORT = 'target/cucumber-reports/Cucumber.json'
      }
-
     stages {
         stage('Checkout') {
             steps {
