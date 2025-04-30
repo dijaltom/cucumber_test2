@@ -56,7 +56,7 @@ Please use this in jenkins pipeline script to generate cucumber Options, in orde
             // Notify failure, if needed
             echo 'Cucumber tests failed!'
         }
-    }
-}
+    }}
+
 ===================================================================================================================================================================
 **End**
