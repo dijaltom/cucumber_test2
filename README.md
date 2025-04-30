@@ -44,8 +44,7 @@ Please use this in jenkins pipeline script to generate cucumber Options, in orde
         failure {
             echo 'Cucumber tests failed!'
         }
-    }
-}
+    }}
 
  
 **End**
