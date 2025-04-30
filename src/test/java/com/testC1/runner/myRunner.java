@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
         plugin = {
                 "pretty",
                 "html:target/cucumber_report.html",
-                "json:target/cucumber_report.json",
+                "json:target/cucumber-reports/Cucumber.json",
                 "rerun:target/failed_scenario.txt",
         },
         monochrome = true,
