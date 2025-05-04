@@ -24,6 +24,7 @@ public class myHooks extends MainUtils {
         System.setProperty("webdriver.chrome.driver", get("driver"));
         driver= new ChromeDriver();
         driver.manage().window().maximize();
+        System.out.println(get("Myenv"));
     }
 
     @After
